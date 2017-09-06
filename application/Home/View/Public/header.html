@@ -1,0 +1,15 @@
+  <div class="headDiv">
+      <div class="headDiv1">
+        <div class="headDiv10">www.<b>ttnewS</b>.com</div>
+        <div class="headDiv11"><img src="__ROOT__/public/images/banner17.gif" width="370" height="50"></div>
+      </div>
+      <div class="headDiv2">天天新闻网</div>
+    </div>
+	<!-- 导航菜单 -->
+	<div class="menuDiv">
+	  <a href="__APP__/Index/index.html" class="a">首页</a> | 
+	  <volist name="newstypes" id="v">
+	  <a href="__APP__/NewsType/index/typeId/{$v.typeId}" class="a">{$v.typeName}</a> | 
+	 </volist>
+	  <a href="__APP__/Search/index.html" class="a">搜索</a>
+	</div>

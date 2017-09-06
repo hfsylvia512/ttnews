@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>后台管理系统</title>
+    <meta http-equiv="content-type" content="text/html;charset=utf-8">
+    <link href="__ROOT__/public/css/admin.css" type="text/css" rel="stylesheet" />
+    <script type="text/javascript" src="__ROOT__/library/jquery/jquery-1.4.js"></script>
+    <script>
+    function checkSearch(){
+      if(document.frm.keyword.value == ""){
+        alert("搜索关键字不能为空!");
+        document.frm.keyword.focus();
+        return false;
+      }
+    }
+    </script>
+  </head>
+  <body>
+    <!-- 网站的头 -->
+    <include file="Public:header"/>
+     <!-- 当前位置 -->
+    <div class="locationDiv">&nbsp;: 后台管理 : 管理首页</div>
+  <include file="Public:left"/> 
+      <!-- 右侧页面内容 -->
+      <div class="rightDiv">
+        <br>
+        <form name="frm" method="get" action="__APP__/Search/search.html" onsubmit="return checkSearch()">
+       <!--  <input type="hidden" name="currentPage" value="1"> -->
+        <table border="0" align="center" width="700" cellpadding="0" cellspacing="0">
+          <tr>
+            <td align="left">
+              &nbsp;新闻搜索：<input type="text" name="keyword" size="30" value="">
+              <select name="searchType">
+                <option value="title">标题</option>
+                <option value="content" selected>内容</option>
+              </select>
+              <input type="submit" value="搜索">
+            </td>
+          </tr>
+        </table>
+        </form>
+        <br>
+        <table border="1" align="center" width="700" cellpadding="0" cellspacing="0">
+          <tr height="30" style="font-weight:bold;">
+            <td>新闻编号</td>
+            <td>新闻类型</td>
+            <td>发表时间</td>
+            <td>新闻标题</td>
+            <td>评论</td>
+            <td>操作</td>
+          </tr>
+          <volist name="newsInfo" id="v">
+          <tr height="25">
+            <td>{$v.articleId}</td>
+            <td>{$v.typeName}</td>
+            <td>{$v.dateandtime}</td>
+            <td align="left"><a href="__APP__/ShowNews/index/articleId/{$v.articleId}">{$v.title}</a></td>
+            <td><a href="">查看评论</a></td>
+            <td><a href="">删除</a></td>
+          </tr>
+          </volist>
+          <tr>
+          <td colspan="6" align="center">
+            {$pageList}
+          </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,101 @@
+[ 2017-08-15T15:18:15+08:00 ] 127.0.0.1 /Psd1704/11ThinkPHP/ttnews/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: akg E:\WWW\Psd1704\11ThinkPHP\ttnews\application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: internation E:\WWW\Psd1704\11ThinkPHP\ttnews\application\Home\Controller\IndexController.class.php 第 23 行.
+NOTIC: [8] Undefined variable: sportsNews E:\WWW\Psd1704\11ThinkPHP\ttnews\application\Home\Controller\IndexController.class.php 第 24 行.
+NOTIC: [8] Undefined variable: news E:\WWW\Psd1704\11ThinkPHP\ttnews\application\Home\Controller\IndexController.class.php 第 25 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: typeId E:\WWW\Psd1704\11ThinkPHP\ttnews\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 98 行.
+NOTIC: [8] Undefined variable: typeId E:\WWW\Psd1704\11ThinkPHP\ttnews\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 100 行.
+NOTIC: [8] Undefined variable: typeId E:\WWW\Psd1704\11ThinkPHP\ttnews\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 98 行.
+NOTIC: [8] Undefined variable: typeId E:\WWW\Psd1704\11ThinkPHP\ttnews\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 100 行.
+NOTIC: [8] Undefined variable: typeId E:\WWW\Psd1704\11ThinkPHP\ttnews\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 98 行.
+NOTIC: [8] Undefined variable: typeId E:\WWW\Psd1704\11ThinkPHP\ttnews\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 100 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-15T15:18:15+08:00 ] 127.0.0.1 /Psd1704/11ThinkPHP/ttnews/index.php/Login/image
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-15T15:18:22+08:00 ] 127.0.0.1 /Psd1704/11ThinkPHP/ttnews/index.php/News/index/articleId/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-15T15:18:31+08:00 ] 127.0.0.1 /Psd1704/11ThinkPHP/ttnews/index.php/News/reviews/articleId/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-15T15:18:33+08:00 ] 127.0.0.1 /psd1704/11thinkphp/ttnews/index.php/news/index/articleId/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+

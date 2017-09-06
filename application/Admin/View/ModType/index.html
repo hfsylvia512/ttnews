@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>后台管理系统</title>
+    <meta http-equiv="content-type" content="text/html;charset=utf-8">
+    <link href="__ROOT__/public/css/admin.css" type="text/css" rel="stylesheet" />
+    <script type="text/javascript" src="__ROOT__/library/jquery/jquery-1.4.js"></script>
+    <script type="text/javascript">
+     function delType(typeId){
+      if(confirm("是否要删除该分类！")){
+        window.location = "__APP__/ModType/delete/typeId/"+typeId;
+      }
+     }
+     function showText(typeId){
+      window.location = "__APP__/Update/index/typeId/"+typeId;
+     }
+    </script>
+  </head>
+  <body>
+    <!-- 网站的头 -->
+  <include file="Public:header"/>
+      <!-- 当前位置 -->
+    <div class="locationDiv">&nbsp;: 后台管理 : 修改分类</div>
+    <!-- 正文内容 -->
+    <div class="mainDiv clear">
+      <!-- 左侧树状列表 -->
+  <include file="Public:left"/>
+      <!-- 右侧页面内容 -->
+      <div class="rightDiv">
+        <br><br><br><br>
+        <form name="frm" method="post" action="modtype.html">
+        <table border="1" align="center" width="600" cellpadding="0" cellspacing="0">
+          <tr class="modTypeDiv1">
+            <td>类别名称</td>
+            <td>新闻数</td>
+            <td>&nbsp;</td>
+          </tr>
+         <volist name="newsType" id="v">
+          <tr class="modTypeDiv2" style="background-color:#FFFFFF;">
+            <td id="td11" width="200">{$v.typeName}</td>
+            <td id="td12" width="200">{$v.articleNums}</td>
+            <td id="td13" width="200">
+              <a href="javascript:showText({$v.typeId})">编辑</a>
+              &nbsp;&nbsp;&nbsp;
+              <a href="javascript:delType({$v.typeId})">删除</a>
+            </td>
+          </tr>
+          </volist> 
+        </table>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
